@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj": {}
+    "C:\\git\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj": {
+    "C:\\git\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj",
+        "projectUniqueName": "C:\\git\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj",
         "projectName": "Gerenciador_Tarefa",
-        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj",
-        "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefa\\Gerenciador_Tarefa\\obj\\",
+        "projectPath": "C:\\git\\GerenciadorTarefa\\Gerenciador_Tarefa\\Gerenciador_Tarefa.csproj",
+        "packagesPath": "C:\\Users\\lo852\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\GerenciadorTarefa\\Gerenciador_Tarefa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lo852\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
